@@ -1,0 +1,312 @@
+.back-img ul{
+    margin: 0;
+    padding: 0;
+}
+/* backimgpart */
+.maindiv{
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+
+}
+.back-img{
+    background-image: url(./photo-1471879832106-c7ab9e0cee23.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    position: relative;
+}
+.back-img img{
+    position: absolute;
+    top: 20px;
+    left: 20%;
+    display: inline-block;
+}
+.back-img ul{
+    position: absolute;
+    top: 25px;
+    left: 50%;
+}
+.back-img ul li{
+    display: inline-block;
+    list-style: none;
+    padding-left: 10px;
+}
+.back-img ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.back-img ul li:hover a{
+    color: orange;
+}
+.back-img h1{
+    position: absolute;
+    top: 44%;
+    left: 28%;
+    font-style: italic;
+}
+.back-img h1::before{
+    content: "\f10d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #be584d;
+    position: absolute;
+    bottom: 40%;
+    left:-6%;
+    display: inline-block;
+}
+.back-img h1::after{
+    content: "\f10e";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #be584d;
+    display: inline-block;
+    position: absolute;
+    bottom: 40%;
+    right:-6%;
+}
+
+/* aboutpart */
+.about{
+    background-color: white;
+    height: 350px;
+    position: relative;
+}
+.imgdiv{
+    height: 150px;
+    width: 200px;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    border: 2px solid orange;
+    box-shadow: 2px 1px 5px 2px;
+    display: inline-block;
+}
+.imgdiv img{
+    max-width: 100%;
+}
+.aboutdiv{
+    display: inline-block;
+    height: 400px;
+    width: 500px;
+    position: absolute;
+    top: 38%;
+    left: 48%;
+}
+.aboutdiv h3{
+    position: absolute;
+    top:-20%;
+    left: 30%;
+}
+/* servicepart */
+.service{
+    height: 400px;
+    background-color: #2e3e4e;
+    color: aliceblue;
+    position: relative;
+}
+.service h2{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    color: #be584d;
+}
+.service-one{
+    text-align: center;
+    width: 33%;
+    display: inline-block;
+    position: absolute;
+    top: 32%;
+    left: 8%;
+}
+.service-one span{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ef664d;
+    background-color: #ef644b;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.service-one span i{
+    color: azure;
+    padding-top: 10px;
+}
+.service-one h3{
+    font-style: italic;
+}
+.service-one ul{
+    list-style: none;
+}
+.service-one ul li::before{
+    content: "\f560";
+    font-family:"Font Awesome 5 Free";
+    font-weight: 600;
+    margin-right:10px ;
+    display: inline-block;
+    color: #be584d;
+    font-size: 12px;
+}
+.service-one a{
+    width: 90px;
+    height: 25px;
+    text-decoration: none;
+    background-color: #ef644b;
+    color: aliceblue;
+    display: inline-block;
+    padding-top:5px ;
+    border-radius: 3px;
+    box-shadow: 2px 1px 3px 1px black;
+    position: relative;
+    z-index: 1;
+}
+.subha a::before{
+    content: "";
+    width: 0%;
+    height: 100%;
+    color: black;
+    position: absolute;
+    top: 0;
+    right:0;
+    z-index:-1;
+    transition: 1s;
+}
+.subha a:hover::before{
+    background-color: yellow;
+    width: 100%;
+}
+.bondhon{
+    position: absolute;
+    top: 32%;
+    left: 33%;
+}
+.bondhon a::before{
+    content: "";
+    width: 100%;
+    height:0%;
+    color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index:-1;
+    transition: 1s;
+}
+.bondhon a:hover::before{
+    background-color: yellow;
+    height: 100%;
+}
+.humyra{
+    position: absolute;
+    top: 32%;
+    left: 58%;
+}
+.humyra a::before{
+    content: "";
+    width: 0%;
+    height:100%;
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:-1;
+    transition: 1s;
+}
+.humyra a:hover::before{
+    background-color: yellow;
+    width: 100%;
+}
+/* contactpart */
+.contact{
+    height: 250px;
+    background-color: white;
+    position: relative;
+}
+.contact h2{
+    color: #4c5b61;
+    text-align: center;
+    position: absolute;
+    top: 7%;
+    left: 48%;
+}
+.contact form{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.contact form input{
+    width: 280px;
+    border: 1px solid white;
+    border-bottom: 2px solid #f6a799;  
+}
+.button{
+    position: absolute;
+    top: 75%;
+    left: 46%;
+}
+.button a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 4px 50px;
+    background-color: #ef664d;
+    color: white;
+    border-radius: 2px;
+    position: relative;
+    z-index: 1;
+}
+.button a::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: inline-block;
+    top: 0%;
+    left: 0%;
+    background-color:#4d2318 ;
+    z-index: -1;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+}
+.button a:hover::before{
+    content: "";
+    width: 50%;
+    height: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+.button a::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: inline-block;
+    top: 0%;
+    right: 0%;
+    background-color:#4d2318 ;
+    z-index: -1;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+}
+.button a:hover::after{
+    content: "";
+    width: 50%;
+    height: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+/* foterrr */
+.foter{
+    background-color: #2e3e4e;
+    text-align: center;
+    padding: 12px 0px;
+    color: aliceblue;
+}
+.foter span{
+    color: #ef644b;
+}
